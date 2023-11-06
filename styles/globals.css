@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+#__next {
+  height: 100%;
+}
+.title {
+  padding-top: 6rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: 300;
+  font-size: 2rem;
+}
+.subtitle {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.wrapper {
+  padding: 8rem 3rem 4rem 3rem;
+  min-height: 90vh;
+}
+.paragraph {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.8;
+}
+.press {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+.buttonSecondary {
+  border-radius: 5px;
+  background-color: #cae265;
+  padding: 10px;
+  width: 100px;
+  text-transform: uppercase;
+  font-size: small;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.accentFont {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.buttonTertiary {
+  outline: 1px solid black;
+  border-radius: 5px;
+  outline-offset: 4px;
+  background-color: rgb(0 0 0 / 75%);
+  padding: 10px;
+  width: 200px;
+  text-transform: uppercase;
+  color: white;
+  font-size: small;
+}
+.buttonTertiary:hover {
+  background-color: unset;
+  color: unset;
+  transition: 250ms;
+}

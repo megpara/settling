@@ -1,0 +1,101 @@
+.nav {
+  position: absolute;
+  padding: 3rem 3rem;
+  width: 100%;
+  height: 100%;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color: white;
+  font-weight: 300;
+}
+
+.nav a {
+  z-index: 2;
+  cursor: pointer;
+}
+
+.alternateNav {
+  color: black;
+}
+.navbg {
+  font-size: 44px;
+  font-weight: 600;
+  font-family: bodoni;
+  opacity: 25%;
+  margin: -24px -24px;
+  letter-spacing: 3px;
+}
+.navitem {
+  display: inline;
+  padding-right: 25px;
+}
+.topright {
+  position: inherit;
+  right: 3rem;
+  z-index: 1;
+}
+.toprightImg {
+  height: 18px;
+  margin-left: 10px;
+}
+.iconLink {
+  cursor: pointer;
+}
+.bottomright {
+  position: inherit;
+  right: 3rem;
+  bottom: 3rem;
+  z-index: 1;
+}
+.topleft {
+  position: inherit;
+  left: 3rem;
+  z-index: 1;
+}
+.bottomleft {
+  position: inherit;
+  left: 3rem;
+  bottom: 3rem;
+  z-index: 1;
+}
+.hovertext {
+  position: absolute;
+  right: 3rem;
+  top: 50%;
+  margin-top: -135px;
+  writing-mode: vertical-lr;
+  height: 270px;
+  font-size: 1rem;
+  letter-spacing: initial;
+  text-transform: initial;
+  text-align: center;
+}
+.hoveritem {
+  display: inline;
+  text-align: right;
+  padding-bottom: 6%;
+}
+.logo {
+  position: fixed;
+}
+@media only screen and (max-width: 768px) {
+  .nav {
+    padding: 2rem;
+  }
+  .topleft {
+    margin-right: 2rem;
+  }
+  .alternateNav {
+    left: 2rem;
+  }
+  .bottomleft {
+    bottom: 2rem;
+  }
+  .topright {
+    right: 2rem;
+  }
+  .bottomright {
+    bottom: 2rem;
+    right: 2rem;
+  }
+}

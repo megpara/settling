@@ -1,0 +1,39 @@
+.workTitle {
+  font-weight: 900;
+  font-family: "Bodoni Moda", serif;
+  color: #405353;
+  font-size: 28px;
+}
+.workText {
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.workSubtext {
+  font-size: 10px;
+  font-weight: 200;
+}
+.workTitle,
+.workText, .workSubtext {
+  line-height: 2;
+  letter-spacing: 2px;
+}
+.item img {
+  width: 100%;
+}
+.title {
+  padding-top: 6rem;
+  text-align: center;
+  font-family: "Bodoni Moda", serif;
+  letter-spacing: 2px;
+  font-weight: 900;
+  font-size: 3rem;
+  color: #405353;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 768px) {
+  .item {
+    flex: 0 0 90%;
+    margin-bottom: 20px;
+  }
+}

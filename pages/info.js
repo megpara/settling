@@ -7,7 +7,7 @@ export default function Info() {
       <div className="wrapper">
         <div className="md:flex flex-row md:px-16 items-center">
           <div>
-            <img src="biopic.jpg" className="md:max-w-sm" />
+            <img src="headshot2.jpg" className="md:max-w-sm" />
             <div className="text-[8px] pt-2">Photo by Katy Shayne</div>
           </div>
           <div className="paragraph md:pt-0 pt-8 md:pl-8 md:text-left text-justify">

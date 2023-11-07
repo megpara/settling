@@ -68,19 +68,36 @@ export default function Nav({ props }) {
           {/* <div className={styles.topleft} onClick={() => setIsModalOpen(true)}> */}
           <Link href="/info">About</Link>
         </div>
-        <div className={`${styles.bottomleft} ${styles.navbg}`}>02</div>
-        <Link href="/work">
-          <a className={styles.bottomleft}>Work</a>
-        </Link>
-        <div className={`${styles.bottomright} ${styles.navbg}`}>03</div>
-        <Link href="/press">
-          <a className={styles.bottomright}>Press</a>
-        </Link>
-        <div className={`${styles.topright} ${styles.navbg}`}>04</div>
+        {/* <div className={`${styles.bottomleft} ${styles.navbg}`}>Say Hello</div> */}
+        <button className={`${styles.bottomleft} buttonTertiary`}>
+          <a target="_blank" href="mailto:meganparadowski@gmail.com">
+            Say Hello
+          </a>
+        </button>
+        <div className={`${styles.bottomright} flex justify-end`}>
+          <div className={styles.icons}>
+            <a
+              target="_blank"
+              href="https://www.instagram.com/megparadowski/"
+            >
+              <img src="/insta-logo-white.png" />
+            </a>
+            {/* <a target="_blank" href="https://vimeo.com/voltacollective">
+              <img src="/vimeo-logo-white.png" />
+            </a>
+            <a href="mailto:meganparadowski@gmail.com">
+              <img src="/email_icon_white.png" />
+            </a>
+            <a target="_blank" href="https://meganparadowski.com">
+              <img src="/web-simple-white.png" />
+            </a> */}
+          </div>
+        </div>
+        <div className={`${styles.topright} ${styles.navbg}`}>02</div>
         <Link href="/teaching">
-          <a className={styles.topright}>Teaching</a>
+          <a className={styles.topright}>Portfolio</a>
         </Link>
-        <Modal open={isModalOpen} closeModal={closeModal} />
+        {/* <Modal open={isModalOpen} closeModal={closeModal} /> */}
         {/* <Popup open={isPopupOpen} closePopup={closePopup} /> */}
       </div>
     );

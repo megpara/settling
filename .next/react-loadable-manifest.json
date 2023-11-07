@@ -4,11 +4,5 @@
     "files": [
       "static/chunks/node_modules_next_dist_client_dev_noop_js.js"
     ]
-  },
-  "index.js -> ../components/GlitchVideo": {
-    "id": "./components/GlitchVideo.js",
-    "files": [
-      "static/chunks/components_GlitchVideo_js.js"
-    ]
   }
 }

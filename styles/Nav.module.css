@@ -78,6 +78,15 @@
 .logo {
   position: fixed;
 }
+.icons {
+  display: flex;
+  /* width: 150px; */
+  justify-content: space-between;
+  align-items: center;
+}
+.icons img {
+  width: 18px;
+}
 @media only screen and (max-width: 768px) {
   .nav {
     padding: 2rem;

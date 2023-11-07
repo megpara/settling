@@ -20,7 +20,7 @@ export default function GlitchVideo({ doneLoading }) {
     camera.position.z = 1;
     const renderer = new THREE.WebGLRenderer();
 
-    const video = document.getElementById("video");
+    const image = document.getElementById("img");
     const container = document.getElementById("videoContainer");
     container.appendChild(renderer.domElement);
 
@@ -32,7 +32,7 @@ export default function GlitchVideo({ doneLoading }) {
     console.log(ratio, width);
     renderer.setSize(window.innerWidth, window.innerHeight);
 
-    const texture = new THREE.VideoTexture(video);
+    const texture = new THREE.Texture(image);
 
     const geometry = new THREE.PlaneBufferGeometry(ratio, 1);
     const material = new THREE.MeshBasicMaterial({ map: texture });
@@ -91,9 +91,9 @@ export default function GlitchVideo({ doneLoading }) {
     }
     window.addEventListener("resize", onWindowResize);
     window.addEventListener("mousemove", onMouseMove);
-    video.oncanplay = () => {
-      doneLoading();
-    };
+    // video.oncanplay = () => {
+    //   doneLoading();
+    // };
 
     return () => {
       cancelAnimationFrame(frame);
@@ -115,14 +115,14 @@ export default function GlitchVideo({ doneLoading }) {
           zIndex: "-1",
         }}
       />
-      <video
-        id="video"
-        className={styles.homeVideo}
-        src="/backwash.mp4 "
-        autoPlay
-        loop
-        muted
-        playsInline="False"
+      <img
+        // id="video"
+        // className={styles.homeVideo}
+        src="/index.png "
+        // autoPlay
+        // loop
+        // muted
+        // playsInline="False"
       />
     </>
   );

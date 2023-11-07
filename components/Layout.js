@@ -31,8 +31,9 @@ export default function Layout({ children }) {
         ></link>
         <link rel="stylesheet" href="https://use.typekit.net/uyy5sgw.css" />
         <link rel="stylesheet" href="https://use.typekit.net/mwq0bcv.css" />
+        <link rel="stylesheet" href="https://use.typekit.net/djh6oaj.css" />
       </Head>
-      <Nav />
+      {/* <Nav /> */}
       {children}
     </div>
   );

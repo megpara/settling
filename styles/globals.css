@@ -109,4 +109,7 @@ a {
     font-size: 12vw;
     padding-bottom: 8px;
   }
+  .wrapper {
+    padding: 4rem 3rem;
+  }
 }

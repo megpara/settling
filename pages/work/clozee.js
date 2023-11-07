@@ -1,9 +1,10 @@
-import Footer from "../../components/Footer";
 import Layout from "../../components/Layout";
+import Menu from "../../components/Menu";
 
 export default function Clozee() {
   return (
     <Layout>
+      <Menu />
       <div className="wrapper">
         <div className="lg:flex lg:px-16 items-center">
           <div className="basis-1/2">
@@ -36,7 +37,7 @@ export default function Clozee() {
                 <div className="font-bold inline">Steadicam:</div> Donald Turner
               </div>
               <div>
-                <div className="font-bold inline">Movement:</div> VOLTA
+                <div className="font-bold inline">Movement:</div> Megan Paradowski
               </div>
               <div>
                 <div className="font-bold inline">VFX:</div> Jade Ananda
@@ -75,7 +76,6 @@ export default function Clozee() {
           </div>
         </div>
       </div>
-      <Footer />
     </Layout>
   );
 }

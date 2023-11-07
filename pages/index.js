@@ -1,17 +1,19 @@
 import Layout from "../components/Layout";
-import Footer from "../components/Footer";
+import Menu from "../components/Menu";
 
 export default function Home() {
   return (
     <Layout>
-      <img src="/index2.png" className="w-full h-full object-cover absolute z-[-1]"/>
-      <div className="!w-full !h-full flex flex-col items-center justify-center text-white">
-        <div className="max-w-min">
-          <div className="name">Megan</div>
-          <div className="name">Paradowski</div>
-          <div className="text-xs uppercase tracking-[5px] text-[#2c3033]">Choreographer</div>
+        <Menu/>
+        <div className="w-full h-full flex flex-col bg-[#2e2e2e] text-[#d2d2d2]">
+        <div className="px-[15px] py-4 w-full">
+            <div className="name">Megan Paradowski</div>
+            <div className="text-xs uppercase tracking-[5px]">Choreographer</div>
         </div>
-      </div>
+        <div className="h-full border-[15px] border-[#2e2e2e]">
+            <img src="/index2.png" className="w-full h-full object-cover"/>
+        </div>
+        </div>
     </Layout>
   );
 }

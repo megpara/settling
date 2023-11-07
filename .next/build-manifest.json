@@ -29,15 +29,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/next/dist/pages/_error": [
+    "/about": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/next/dist/pages/_error.js"
+      "static/chunks/pages/about.js"
     ],
-    "/test": [
+    "/work": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/test.js"
+      "static/chunks/pages/work.js"
+    ],
+    "/work/clozee": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/work/clozee.js"
     ]
   },
   "ampFirstPages": []

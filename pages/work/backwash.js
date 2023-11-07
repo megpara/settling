@@ -1,9 +1,10 @@
-import Footer from "../../components/Footer";
 import Layout from "../../components/Layout";
+import Menu from "../../components/Menu";
 
 export default function Backwash() {
   return (
     <Layout>
+      <Menu />
       <div className="wrapper">
         <div className="lg:flex items-center relative">
           <div className="basis-1/2">
@@ -53,7 +54,6 @@ export default function Backwash() {
           </div>
         </div>
       </div>
-      <Footer />
     </Layout>
   );
 }

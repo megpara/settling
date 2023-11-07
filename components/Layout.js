@@ -1,23 +1,22 @@
 import Head from "next/head";
 import styles from "../styles/Layout.module.css";
-import Nav from "./Nav";
 
 export default function Layout({ children }) {
   return (
     <div className={styles.main}>
       <Head>
-        <title>Volta Collective</title>
+        <title>Megan Paradowski</title>
         <meta
           name="description"
-          content="A Los Angeles based dance theatre company"
+          content="A Los Angeles based choreographer and movement director"
         />
-        <meta property="og:title" content="Volta Collective" key="ogtitle" />
+        <meta property="og:title" content="Megan Paradowski" key="ogtitle" />
         <meta
           property="og:description"
-          content="A Los Angeles based dance theatre company"
+          content="A Los Angeles based choreographer and movement director"
           key="ogdesc"
         />
-        <meta property="og:image" content="/backwashpaige.png" />
+        <meta property="og:image" content="/index2.png" />
         <link rel="icon" href="/favicon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossrigin />
@@ -33,7 +32,6 @@ export default function Layout({ children }) {
         <link rel="stylesheet" href="https://use.typekit.net/mwq0bcv.css" />
         <link rel="stylesheet" href="https://use.typekit.net/djh6oaj.css" />
       </Head>
-      {/* <Nav /> */}
       {children}
     </div>
   );

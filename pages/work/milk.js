@@ -1,9 +1,10 @@
-import Footer from "../../components/Footer";
 import Layout from "../../components/Layout";
+import Menu from "../../components/Menu";
 
 export default function Milk() {
   return (
     <Layout>
+      <Menu />
       <div className="wrapper">
         <div className="lg:flex lg:px-16 items-center">
           <div className="basis-1/2">
@@ -61,7 +62,6 @@ export default function Milk() {
           </div>
         </div>
       </div>
-      <Footer />
     </Layout>
   );
 }

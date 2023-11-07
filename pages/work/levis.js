@@ -1,9 +1,10 @@
-import Footer from "../../components/Footer";
 import Layout from "../../components/Layout";
+import Menu from "../../components/Menu";
 
 export default function Levis() {
   return (
     <Layout>
+      <Menu/>
       <div className="wrapper">
         <div className="lg:flex lg:px-16 items-center">
           <div className="basis-1/2">
@@ -72,7 +73,6 @@ export default function Levis() {
           </div>
         </div>
       </div>
-      <Footer />
     </Layout>
   );
 }

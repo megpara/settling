@@ -32,7 +32,17 @@ const works = [
         title: "BACKWASH by Volta",
         thumbnail: "backwashpaige.png",
         link: "/work/backwash",
-    }
+    },
+    {
+        title: "I Want To Be In Love by Volta",
+        thumbnail: "IWTBIL.png",
+        link: "/work/iwtbil",
+    },
+    {
+        title: "In Liquid Light",
+        thumbnail: "ILL.png",
+        link: "/work/ill",
+    },  
 ]
 
 export default function Work() {
@@ -49,7 +59,7 @@ export default function Work() {
                             src={work.thumbnail}
                             className="aspect-[2/1.1] object-cover"
                         />
-                        <div className="subtitle pt-4 text-center">
+                        <div className="subtitle pt-4 text-center !text-sm">
                             {work.title}
                         </div>
                         </div>

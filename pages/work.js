@@ -9,7 +9,7 @@ const works = [
         link: "/work/clozee",
     },
     {
-        title: "SALT by Volta",
+        title: "VOLTA X 2220 Arts + Archives",
         thumbnail: "saltcover.png",
         link: "/work/salt",
     },
@@ -19,7 +19,7 @@ const works = [
         link: "/work/levis",
     },
     {
-        title: "MILK by Volta",
+        title: "Volta X Institute for Art and Olfaction",
         thumbnail: "milk.jpg",
         link: "/work/milk",
     },
@@ -29,17 +29,17 @@ const works = [
         link: "/work/lorenstewart",
     },
     {
-        title: "BACKWASH by Volta",
+        title: "VOLTA X Navel LA",
         thumbnail: "backwashpaige.png",
         link: "/work/backwash",
     },
     {
-        title: "I Want To Be In Love by Volta",
+        title: "VOLTA X Hosek Contemporary Berlin",
         thumbnail: "IWTBIL.png",
         link: "/work/iwtbil",
     },
     {
-        title: "In Liquid Light",
+        title: "VOLTA X Museum of Neon Art",
         thumbnail: "ILL.png",
         link: "/work/ill",
     },  

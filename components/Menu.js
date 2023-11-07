@@ -6,23 +6,29 @@ export default function Menu() {
     let path = router.asPath;
 
     return (
-        <div className="bg-white h-[26px] flex">
-            <div className="w-1/4 bg-black text-[#d2d2d2] px-4 font-bold text-[10px] uppercase flex justify-between">
-                <div className="flex flex-col justify-center"><Link href="/">Home</Link></div>
-                <div className="flex flex-col justify-center"><div className={"w-[6px] h-[6px] bg-[#d2d2d2]" + (path !== ("/") ? " hidden" : "")} /></div>
+        <div className="h-[26px] flex">
+            <Link href="/">
+            <div className="group w-1/4 bg-black text-[#d2d2d2] px-4 font-bold text-[10px] uppercase flex justify-between cursor-pointer">
+                <div className="flex flex-col justify-center">Home</div>
+                <div className="flex flex-col justify-center"><div className={"w-[6px] h-[6px] bg-[#d2d2d2] group-hover:block" + (path !== ("/") ? " hidden" : "")} /></div>
             </div>
-            <div className="w-1/4 bg-[#bbbfb0] px-4 font-bold text-[10px] uppercase flex justify-between">
-                <div className="flex flex-col justify-center"><Link href="/about">About</Link></div>
-                <div className="flex flex-col justify-center"><div className={"w-[6px] h-[6px] bg-black" + (!path.includes("about") ? " hidden" : "")} /></div>
+            </Link>
+            <Link href="/about">
+            <div className="group w-1/4 bg-[#bbbfb0] px-4 font-bold text-[10px] uppercase flex justify-between cursor-pointer">
+                <div className="flex flex-col justify-center">About</div>
+                <div className="flex flex-col justify-center"><div className={"w-[6px] h-[6px] bg-black group-hover:block" + (!path.includes("about") ? " hidden" : "")} /></div>
             </div>
-            <div className="w-1/4 bg-[#5f5f5f] text-[#d2d2d2] px-4 font-bold text-[10px] uppercase flex justify-between">
-                <div className="flex flex-col justify-center"><Link href="/work">Work</Link></div>
-                <div className="flex flex-col justify-center"><div className={"w-[6px] h-[6px] bg-[#d2d2d2]" + (!path.includes("work") ? " hidden" : "")} /></div>
+            </Link>
+            <Link href="/work">
+            <div className="group w-1/4 bg-[#5f5f5f] text-[#d2d2d2] px-4 font-bold text-[10px] uppercase flex justify-between cursor-pointer">
+                <div className="flex flex-col justify-center"><div className={"w-[6px] h-[6px] bg-[#d2d2d2] group-hover:block" + (!path.includes("work") ? " hidden" : "")} /></div>
+                <div className="flex flex-col justify-center">Work</div>
             </div>
-            <div className="w-1/4 bg-[#403f3f] text-[#d2d2d2] px-4 font-bold text-[10px] uppercase flex justify-between">
-                <div className="flex flex-col justify-center"><a href="mailto:meganparadowski@gmail.com">Say Hello</a></div>
-                <div className="flex flex-col justify-center"></div>
-            </div>
+            </Link>
+            <a className="group w-1/4 bg-[#403f3f] text-[#d2d2d2] px-4 font-bold text-[10px] uppercase flex justify-between" href="mailto:meganparadowski@gmail.com">
+                <div className="flex flex-col justify-center"><div className="w-[6px] h-[6px] bg-[#d2d2d2] hidden group-hover:block" /></div>
+                <div className="flex flex-col justify-center">Say Hello</div>
+            </a>
         </div>
     )
 }

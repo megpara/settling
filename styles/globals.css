@@ -103,3 +103,10 @@ a {
   font-style: normal;
   line-height: 1;
 }
+
+@media only screen and (max-width: 768px) {
+  .name {
+    font-size: 12vw;
+    padding-bottom: 8px;
+  }
+}

@@ -17,7 +17,7 @@ export default function Layout({ children }) {
           key="ogdesc"
         />
         <meta property="og:image" content="/index2.png" />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon2.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossrigin />
         <link
@@ -31,6 +31,7 @@ export default function Layout({ children }) {
         <link rel="stylesheet" href="https://use.typekit.net/uyy5sgw.css" />
         <link rel="stylesheet" href="https://use.typekit.net/mwq0bcv.css" />
         <link rel="stylesheet" href="https://use.typekit.net/djh6oaj.css" />
+        <link rel="stylesheet" href="https://use.typekit.net/tcx4fsg.css" />
       </Head>
       {children}
     </div>

@@ -41,7 +41,6 @@ a {
 .wrapper {
   padding: 8rem 3rem;
   min-height: 100%;
-  background-color: #f7f5ee;
 }
 .paragraph {
   font-size: 15px;
@@ -96,18 +95,16 @@ a {
 }
 
 .name {
-  font-size: 8vw;
-  letter-spacing: 7px;
+  letter-spacing: 5px;
   text-transform: uppercase;
-  font-family: ivymode,sans-serif;
-  font-weight: 400;
+  font-family: "aktiv-grotesk-extended", sans-serif;
+  font-weight: 200;
   font-style: normal;
   line-height: 1;
 }
 
 @media only screen and (max-width: 768px) {
   .name {
-    font-size: 12vw;
     padding-bottom: 8px;
   }
   .wrapper {

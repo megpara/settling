@@ -5,7 +5,13 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <link rel="preload" href="/email_icon_blue.png" as="image" />
+        <meta property="og:title" content="Settling" key="ogtitle" />
+        <meta
+          property="og:description"
+          content="A new show"
+          key="ogdesc"
+        />
+        <meta property="og:image" content="/og_header.png" />
         </Head>
         <body>
           <Main />

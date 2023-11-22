@@ -5,9 +5,7 @@ import Menu from "../components/Menu";
 export default function Home() {
   return (
     <div>
-      {/* <div className="m-32"> */}
-        <img src="SETTLING.jpg" className="w-full" />
-      {/* </div> */}
+        <img src="settling.png" className="w-full" />
     </div>
   );
 }

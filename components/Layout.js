@@ -17,7 +17,7 @@ export default function Layout({ children }) {
           key="ogdesc"
         />
         <meta property="og:image" content="/index2.png" />
-        <link rel="icon" href="/favicon2.png" />
+        <link rel="icon" href="/SETTLING_FLAVACON.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossrigin />
         <link

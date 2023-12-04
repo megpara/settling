@@ -12,6 +12,7 @@ export default class MyDocument extends Document {
           key="ogdesc"
         />
         <meta property="og:image" content="/og_header.png" />
+        <link rel="icon" href="/SETTLING_FLAVACON.png" />
         </Head>
         <body>
           <Main />

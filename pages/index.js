@@ -24,9 +24,9 @@ export default function Home() {
         <img src="SETTLING_6.jpg" className="w-full" />
         <img src="SETTLING_7.jpg" className="w-full" />
         <img className="fixed bottom-8 left-8 w-[150px] md:w-[200px]" src="/SETTLING_DOWNLOAD.png"/>
-        <div  className="absolute bottom-4 w-full flex flex-col items-center">
+        <div  className="absolute bottom-2 md:bottom-4 w-full flex flex-col items-center">
           <a href="/">
-            <img src="/SETTLING_SCROLL.png" className="w-[150px] md:w-[200px]"/>
+            <img src="/SETTLING_SCROLL.png" className="w-[100px] md:w-[200px]"/>
           </a>
         </div>
         </div>

@@ -56,7 +56,6 @@ export default function Home() {
   return (
       <div className="relative">
         <img src="settling1_v7.jpg" className="w-full" />
-        <img src="settling2_v7.jpg" className="w-full" />
         <img src="settling3_v7.jpg" className="w-full" />
         <img src="settling4_v7.jpg" className="w-full" />
         <img src="settling5_v7.jpg" className="w-full" />

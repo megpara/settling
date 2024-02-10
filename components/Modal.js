@@ -37,10 +37,10 @@ export default function Modal({ open, closeModal, children }) {
             transition={{ duration: 0.5 }}
           >
             <button
-              className="absolute w-[10px] cursor-pointer md:right-8 md:top-8 right-4 top-4 uppercase duration-700 font-display text-sm z-30"
+              className="absolute cursor-pointer md:right-8 md:top-8 right-4 top-4 uppercase duration-700 font-display text-3xl font-bold z-30 text-[#fecc35]"
               onClick={closeModal}
             >
-              x
+              <img className="w-[40px] md:w-[65px]" src="/close.png"/>
             </button>
             {children}
           </motion.div>

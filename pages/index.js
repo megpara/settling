@@ -119,7 +119,7 @@ export default function Home() {
         <img src="settling12_v7.jpg" className="w-full" />
 
         <button className="absolute top-0 left-0 z-20" onClick={() => openModal()}>
-          <img className="w-[100px] md:w-[150px] pt-4 pl-4 md:pt-8 md:pl-8" src="/view.png"/>
+          <img className="w-[75px] md:w-[125px] mt-4 ml-4 md:mt-8 md:ml-8" src="/view.png"/>
         </button>
 
         <Modal open={checkIsModalOpen()} closeModal={closeModal}>

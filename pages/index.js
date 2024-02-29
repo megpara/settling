@@ -106,7 +106,7 @@ export default function Home() {
         </div>
         <img src="settling6_v7.jpg" className="w-full" />
         <div className="">
-          <a href="https://www.youtube.com/results?search_query=THE+NON-ESSENTIALS+%7C+adult+swim+smalls" target="_blank"><img src="settling7_v7.jpg"/></a>
+          <a href="https://vimeo.com/478169209" target="_blank"><img src="settling7_v7.jpg"/></a>
         </div>
         <img src="settling8_v7.jpg" className="w-full" />
         <img src="settling9_v7.jpg" className="w-full" />
